@@ -2,10 +2,10 @@ module "sandbox" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "cpes-infra+mark-lehmann@centricsoftware.onmicrosoft.com"
-    AccountName               = "sandbox-mark-lehmann"
+    AccountEmail              = "cpes-infra+testing@centricsoftware.onmicrosoft.com"
+    AccountName               = "sandbox-testing"
     ManagedOrganizationalUnit = "Sanbox"
-    SSOUserEmail              = "cpes-infra+mark-lehmann@centricsoftware.onmicrosoft.com"
+    SSOUserEmail              = "cpes-infra+testing@centricsoftware.onmicrosoft.com"
     SSOUserFirstName          = "Sandbox"
     SSOUserLastName           = "AFT"
   }
