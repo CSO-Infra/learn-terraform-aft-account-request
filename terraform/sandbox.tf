@@ -4,9 +4,9 @@ module "sandbox" {
   control_tower_parameters = {
     AccountEmail              = "cpes-infra+testing@centricsoftware.onmicrosoft.com"
     AccountName               = "sandbox-testing"
-    ManagedOrganizationalUnit = "Sanbox"
+    ManagedOrganizationalUnit = "controller"
     SSOUserEmail              = "cpes-infra+testing@centricsoftware.onmicrosoft.com"
-    SSOUserFirstName          = "Sandbox"
+    SSOUserFirstName          = "controller"
     SSOUserLastName           = "AFT"
   }
 
