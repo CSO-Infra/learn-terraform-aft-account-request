@@ -2,11 +2,11 @@ module "sandbox" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "cpes-infra+new@centricsoftware.onmicrosoft.com"
-    AccountName               = "sandbox-new"
-    ManagedOrganizationalUnit = "controller (pp-ghnkmog5hfpwc)"
-    SSOUserEmail              = "cpes-infra+new@centricsoftware.onmicrosoft.com"
-    SSOUserFirstName          = "controller"
+    AccountEmail              = "cpes-infra+playground1@centricsoftware.onmicrosoft.com"
+    AccountName               = "playground1"
+    ManagedOrganizationalUnit = "Playground"
+    SSOUserEmail              = "cpes-infra+playground1@centricsoftware.onmicrosoft.com"
+    SSOUserFirstName          = "playground"
     SSOUserLastName           = "AFT"
   }
 
@@ -23,5 +23,5 @@ module "sandbox" {
     group = "non-prod"
   }
 
-  account_customizations_name = "sndbox-new"
+  account_customizations_name = "playground"
 }
