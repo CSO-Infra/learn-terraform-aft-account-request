@@ -4,7 +4,7 @@ module "sandbox" {
   control_tower_parameters = {
     AccountEmail              = "cpes-infra+dev@centricsoftware.onmicrosoft.com"
     AccountName               = "devaccount-aft"
-    ManagedOrganizationalUnit = "devaccounts"
+    ManagedOrganizationalUnit = "devaccounts (ou-ahid-8mwyn1in)"
     SSOUserEmail              = "cpes-infra+dev@centricsoftware.onmicrosoft.com"
     SSOUserFirstName          = "DevAccounts"
     SSOUserLastName           = "AFT"
