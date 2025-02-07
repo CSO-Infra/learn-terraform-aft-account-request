@@ -33,7 +33,7 @@ module "Controller" {
   control_tower_parameters = {
     AccountEmail              = "cpes-infra+mark-lehmann@centricsoftware.onmicrosoft.com"
     AccountName               = "controller-01"
-    ManagedOrganizationalUnit = "Controller"
+    ManagedOrganizationalUnit = "controller (pp-ghnkmog5hfpwc)"
     SSOUserEmail              = "cpes-infra+mark-lehmann@centricsoftware.onmicrosoft.com"
     SSOUserFirstName          = "controller"
     SSOUserLastName           = "AFT"
