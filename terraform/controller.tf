@@ -52,5 +52,5 @@ module "Controller" {
     group = "non-prod"
   }
 
-  account_customizations_name = "controller"
+  account_customizations_name = "controller-01"
 }
